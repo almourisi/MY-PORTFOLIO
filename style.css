@@ -80,15 +80,21 @@ h3 {
 }
 /* أضف التعديلات التالية إلى الأنماط الحالية */
 
+/* أضف التعديلات التالية إلى الأنماط الحالية */
+
 .contact-link {
   display: inline-block;
   padding: 8px;
-  background-color: #343a40;
+  background-color: #25d366; /* لون WhatsApp الرسمي */
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
   position: fixed;
-  bottom: 20px; /* يمكنك ضبط الارتفاع بحسب رغبتك */
-  right: 20px; /* يمكنك ضبط الموضع بحسب رغبتك */
-  z-index: 1000; /* ضمان عرض الزر أعلى العناصر الأخرى */
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.contact-link i {
+  margin-right: 5px; /* تحديد التباعد بين النص والأيقونة */
 }
