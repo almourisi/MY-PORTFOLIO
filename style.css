@@ -100,6 +100,6 @@ a:hover {
   z-index: 1000;
 }
 
-.contact-link i {
+.contact-link a {
   margin-right: 5px; /* تحديد التباعد بين النص والأيقونة */
 }
