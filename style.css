@@ -65,14 +65,22 @@ h3 {
 .skills-list li a{
   color: #fff;
  
-.contact-link {
-  display: inline-block;
-  padding: 8px;
-  background-color: #343a40;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-}
+  .contact-link {
+    display: inline-block;
+    padding: 8px;
+    background-color: #343a40;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 20px; /* يمكنك ضبط الارتفاع بحسب رغبتك */
+    right: 20px; /* يمكنك ضبط الموضع بحسب رغبتك */
+    z-index: 1000; /* ضمان عرض الزر أعلى العناصر الأخرى */
+  }
+  .contact-link i {
+    margin-right: 5px; /* تحديد التباعد بين النص والأيقونة */
+  }
+  
 
 .footer {
   text-align: center;
@@ -87,19 +95,4 @@ h3 {
 
 /* أضف التعديلات التالية إلى الأنماط الحالية */
 
-.contact-link {
-  display: inline-block;
-  padding: 8px;
-  background-color: #343a40;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 20px; /* يمكنك ضبط الارتفاع بحسب رغبتك */
-  right: 20px; /* يمكنك ضبط الموضع بحسب رغبتك */
-  z-index: 1000; /* ضمان عرض الزر أعلى العناصر الأخرى */
-}
-.contact-link i {
-  margin-right: 5px; /* تحديد التباعد بين النص والأيقونة */
-}
 
