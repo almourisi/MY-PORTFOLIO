@@ -54,7 +54,7 @@ h3 {
   padding: 0;
 }
 
-.skills-list li{
+.skills-list {
   display: inline-block;
   margin: 5px;
   padding: 8px;
@@ -62,9 +62,8 @@ h3 {
   color: #fff;
   border-radius: 4px;
 }
-.skills-list li a{
+.skills-list a{
   color: #fff;
-  text-decoration: none;
 }
 .contact-link {
     display: inline-block;
